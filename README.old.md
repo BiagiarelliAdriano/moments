@@ -1,10 +1,9 @@
-![CI logo](https://codeinstitute.s3.amazonaws.com/fullstack/ci_logo_small.png)
+Remember.
+To connect main project with back-end api, drf-api, whatever.
+Heroku for the api, add Config Vars, remember to remove the ending /
+CLIENT_ORIGIN = heroku link for front-end
+CLIENT_ORIGIN_DEV = link of preview inside codeinstitute-ide
+Update link for client_origin_dev if it changes
 
-# This template has been deprecated
-
-Please use (and bookmark) this template instead: [CI Full Template](https://github.com/Code-Institute-Org/ci-full-template)
-
-Any projects built using the old template will continue to work. For all new projects, please use the **CI Full Template**, which will be updated more frequently.
-
----
-Happy coding!
+Then install axios = npm install axios
+Make api folder inside src, with axiosDefault.js
